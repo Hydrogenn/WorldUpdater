@@ -1,0 +1,10 @@
+name: WorldUpdater
+main: hydrogenn.worldUpdater.WorldUpdater
+version: 1.0
+commands:
+  go:
+    description: Begins the world update.
+    usage: "/go [range]"
+  load:
+    description: Loads all the chunks that must be loaded in the given world.
+    usage: "/load [range]"
